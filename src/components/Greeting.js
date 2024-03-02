@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchGreeting } from '../redux/actions';
+import fetchGreeting from '../redux/actions';
 
 function Greeting() {
   const dispatch = useDispatch();
@@ -19,4 +19,3 @@ function Greeting() {
 }
 
 export default Greeting;
-

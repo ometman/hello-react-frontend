@@ -1,14 +1,14 @@
-const path = require("path");
-const webpack = require("webpack");
+const path = require('path');
+const webpack = require('webpack');
 
 module.exports = {
-  mode: "development",
+  mode: 'development',
   entry: {
-    application: "../src/index.js"
+    application: '../src/index.js',
   },
   output: {
-    filename: "[name].js",
-    path: path.resolve(__dirname, "public"),
+    filename: '[name].js',
+    path: path.resolve(__dirname, 'public'),
   },
   module: {
     rules: [
