@@ -1,70 +1,227 @@
-# Getting Started with Create React App
+# Hello-React-Frontend: Ometman
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a name="readme-top"></a>
 
-## Available Scripts
+<div align="center">
+  <img src="./ometman-logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+  <h3><b>Hello-Rails-Frontend: by Ometman</b></h3>
+  <h5>Hello-Rails-Frontend is a simple but powerful setup of React as Frontend framework serving API data from the rails backend (https://github.com/ometman/hello-rails-backend). It harnesses the power of react frontend capabilities using React and Redux state management and ThunksAPI and useDispatch to access data from the Rails APi endpoints . As an example, it implements APi to show random greetings everytime the page is refreshed.
+  
+  Enjoy it!
+</div>
 
-In the project directory, you can run:
+# 📗 Table of Contents
 
-### `npm start`
+- [Hello-React-Frontend: Ometman](#hello-react-frontend-ometman)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Hello-Reacts-Frontend ](#-hello-reacts-frontend-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup (Making a Copy)](#setup-making-a-copy)
+    - [Install Packages and Run Tests ](#install-packages-and-run-tests-)
+    - [Usage - Start Locally ](#usage---start-locally-)
+    - [Deployment](#deployment)
+    - [Authors](#authors)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ ](#-faq-)
+  - [📝 License ](#-license-)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 📖 Hello-Reacts-Frontend <a name="about-project"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**A Demo Video: Introduction to this Project**
+--[Demo-Link](coming soon)
 
-### `npm test`
+> The project is designsed for any screen size.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> Project Brief :
+- It is a React Project
+- It is implements Redux state and ThunksAPI.
+- It uses Axios to access Rails Backend API.
+- It can perform CRUD functionalities.
+- It serves front end design with data from Rails Backend API.
 
-### `npm run build`
+## 🛠 Built With <a name="built-with"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Tech Stack <a name="tech-stack"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li>Pure JSX/JS</>
+    <li>Webpack</li>
+    <li>React and Redux</li>
+    <li>Real-life structure</li>
+    <li>State Management with Redux</li>
+    <li>TDD (Test-Driven Development) implementation</li>
+  </ul>
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li>PostgreSql Server</li>
+    <li>Github Servers</li>
+    <li>Localhost</li>
+  </ul>
+</details>
 
-### `npm run eject`
+<details>
+  <ul>
+    <li>PostgreSql Database</li>
+  </ul>
+</details>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Key Features <a name="key-features"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Demontration of Reacts API functionalities***
+- **Professionalism and Best Practices**
+- **Creating, querying, updating and auditing an API through React**
+- **State management**
+- **Creating Frontend with React**
+- **Simplicity of Setup**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 💻 Getting Started <a name="getting-started"></a>
 
-## Learn More
+To get a local copy up and running, follow these steps.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+In order to run this project you need:
 
-### Code Splitting
+- Git (for running git related commands only)
+- An IDE (e.g. VS Code) - For viewing and accessing the files only
+- A system with a good OS like Mac Os, Linux or Windows etc
+- React (https://https://react.dev/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Setup (Making a Copy)
 
-### Analyzing the Bundle Size
+- Open your code editor (e.g. VS Code).
+- At the terminal, clone this repository to your desired directory.
+  - Use `git clone` to get your local copy of the project.
+    >> At the prompt (bash) enter:
+    ```
+    git clone https://github.com/ometman/hello-react-frontend.git
+    ```
+### Install Packages and Run Tests <a name="install"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ Run `npm install` to set up the required packages and gems.
 
-### Making a Progressive Web App
+**************
+For Stylelint
+**************
+- Run 
+> npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+- Copy **.stylelintrc.json** to the root directory of your project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Run 
+> npx stylelint "**/*.{css,scss}" 
+on the root of your directory of your project.
+- Fix linter errors.
 
-### Advanced Configuration
+*******
+ESLint
+*******
+- Run 
+> npm install --save-dev eslint@7.x eslint-config-airbnb@18.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-react@7.x eslint-plugin-react-hooks@4.x @babel/eslint-parser@7.x @babel/core@7.x  @babel/plugin-syntax-jsx@7.x @babel/preset-env@7.x  @babel/preset-react@7.x
+- Copy **.eslintrc.json** to the root directory of your project.
+- Copy **.babelrc.json** to the root directory of your project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Run 
+> npx eslint .  
+on the root of your directory of your project.
+- Fix linter errors.
+
+- For functionality testing, Run 
+> npm test or npm run test
+> All test must pass without error  
+
+### Usage - Start Locally <a name="usage"></a>
+
+To run the project locally, execute the following command:
+
+- First Launch the rails app with the following command to start the rails server:
+  ``
+  rails s
+ ``
+ - Next, launch the react app:
+ ```
+  npm run start
+ ```
+ 
+- Voila! You can checkout the service, by going to the browser and enter: 
+  - localhost:3001 or 127.0.0.1:3001
+  - (Make sure you do not run at port 3000)
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can deploy this project using:
 
-### `npm run build` fails to minify
+- GitHub Pages from a specific branch (e.g. main).
+- You can also used any cloud service like gcloud or Azure.
+- A deployed version can be found here:
+  [Deployment coming soon](http://)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Authors
+
+👤 **Omet Omeni (Ometman)**
+
+- GitHub: [@ometman](https://github.com/ometman)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ometman/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- **Improving UI design**
+- **Adding a help information**
+- **Adding contact information**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/ometman/hello-react-frontend/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+As a tech enthusiast, your support is always appreciated. If you like this project please do let us know with your support in any way you see fit.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank especially [Microverse](https://www.microverse.org/) for inspiring this project & project guidelines.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ❓ FAQ <a name="faq"></a>
+
+- **Can I fork this project?**
+
+  - Yes, feel free to fork and knock yourself out :) .
+
+- **Can I share this project with others?**
+  - Yes, you can share this project for any educational purposes.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
