@@ -154,11 +154,12 @@ To run the project locally, execute the following command:
  ``
  - Next, launch the react app:
  ```
-  npm run build
+  npm run start
  ```
  
 - Voila! You can checkout the service, by going to the browser and enter: 
-  - localhost:30001 or 127.0.0.1:3001
+  - localhost:3001 or 127.0.0.1:3001
+  - (Make sure you do not run at port 3000)
 
 ### Deployment
 
