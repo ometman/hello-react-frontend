@@ -1,16 +1,15 @@
-export const FETCH_GREETING_SUCCESS = 'FETCH_GREETING_SUCCESS';
+import { createAsyncThunk } from '@reduxjs/toolkit';
+import axios from 'axios';
 
-export const fetchGreetingSuccess = (greeting) => ({
-  type: FETCH_GREETING_SUCCESS,
-  payload: greeting,
-});
-
-export const fetchGreeting = () => async (dispatch) => {
-  try {
-    const response = await fetch('https://your-api-endpoint.com/greeting');
-    const data = await response.json();
-    dispatch(fetchGreetingSuccess(data.greeting));
-  } catch (error) {
-    console.error('Error fetching greeting:', error);
+export const fetchGreeting = createAsyncThunk(
+  'greetings/fetchGreeting',
+  async () => {
+    try {
+      const response = await axios.get('http://127.0.0.1:3000/api/greetings');
+      return response.data;
+    } catch (error) {
+      console.error('Error fetching greeting:', error);
+      throw error;
+    }
   }
-};
+);
